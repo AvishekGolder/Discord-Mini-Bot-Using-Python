@@ -45,4 +45,4 @@ async def translate(ctx, lang, *, args):
 @tasks.loop(seconds=10)
 async def change_status ():
     await bot.change_presence(activity=discord.Game(choice(status)))
-bot.run(' ')#use your bot's token
+bot.run(' ')  #use your bot's token
